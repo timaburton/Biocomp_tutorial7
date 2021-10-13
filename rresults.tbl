@@ -1,0 +1,20 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name          accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#  ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tr|B7RH33|B7RH33_9RHOB -          sigma70              -            6.1e-24   81.5   0.4   1.4e-23   80.4   0.4   1.6   1   0   0   1   1   1   1 -
+tr|B7RGX5|B7RGX5_9RHOB -          sigma70              -            3.5e-20   69.5   0.1     7e-20   68.5   0.1   1.6   1   0   0   1   1   1   1 -
+tr|B7RH17|B7RH17_9RHOB -          sigma70              -            4.4e-19   66.0   0.2   1.1e-18   64.7   0.2   1.7   1   0   0   1   1   1   1 -
+tr|B7RJL9|B7RJL9_9RHOB -          sigma70              -            9.2e-19   64.9   0.2   1.6e-18   64.1   0.2   1.4   1   0   0   1   1   1   1 -
+tr|B7RI57|B7RI57_9RHOB -          sigma70              -            1.3e-18   64.4   0.5   6.7e-18   62.2   0.2   2.1   2   0   0   2   2   2   1 -
+tr|B7RH51|B7RH51_9RHOB -          sigma70              -            2.5e-17   60.4   0.1     5e-17   59.4   0.1   1.5   1   0   0   1   1   1   1 -
+tr|B7RSA6|B7RSA6_9RHOB -          sigma70              -            1.3e-14   51.6   0.4   2.5e-14   50.8   0.4   1.4   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      sigma70.hmm
+# Target file:     Roseobacter.fasta
+# Option settings: ./hmmsearch --tblout rresults.tbl sigma70.hmm Roseobacter.fasta 
+# Current dir:     /afs/crc.nd.edu/user/z/ztabelli/Private/Biocomputing/Biocomp_tutorial7
+# Date:            Wed Oct 13 10:58:03 2021
+# [ok]
